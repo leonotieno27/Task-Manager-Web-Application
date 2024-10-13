@@ -1,40 +1,118 @@
-body{
-    text-align: center;
+body {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("assets/project-management-tools-illustration-20vwwkbworhkpzff.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.fieldset-register{
-    text-align: left;
+.fieldset-register {
+  text-align: left;
+}
+.addTaskSpace {
+  height: 25em;
+  text-align: left;
 }
 
-#task-contents{
-    height: 30em;
+.task-img {
+  width: 20px;
+  height: 20px;
+  padding-left: 2px;
 }
-.addTaskSpace{
-    height: 25em;
-    text-align: left;
+.bin-img {
+  width: 40px;
+  height: 40px;
 }
 
-.task-img{
+.btn:hover {
+  cursor: pointer;
+}
+
+.flex-items {
+  display: flex;
+}
+.alignLeft {
+  text-align: left;
+}
+
+.noTasks {
+  padding-top: 4em;
+}
+
+.header-text {
+  font-size: 3em;
+  color: white;
+}
+
+.txt {
+  color: white;
+}
+
+.label-group {
+  font-size: 20px;
+}
+
+.submit{
+    font-size: 22px;
+}
+
+#addTaskButton{
+    border-radius: 7px;
+}
+
+.taskName{
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin: 0%;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 0.5em;
+}
+
+.taskDesc{
+    color: white;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin: 0%;
+    text-align: left;
+    padding-left: 0.7em;
+}
+
+.deadline{
+    color: white;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin: 0%;
+    text-align: left;
+    padding-left: 0.7em;
+
+}
+.dateTime{
+    color: white;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin: 0%;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 0.7em;
+    padding-bottom: 0.7em;
+
+}
+
+.contents{
+    margin-top: 0%;
+    padding-top: 0%;
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 10px;
+    padding-bottom: 2em;
+}
+
+.bin{
     width: 20px;
-    height: 20px;
-    padding-left: 2px;
-}
-.bin-img{
-    width: 40px;
-    height: 40px;
-    
+    height: 20px; 
 }
 
-.btn:hover{
-    cursor: pointer;
-}
-
-.flex-items{
-    display: flex;
-}
-.alignLeft{
-    text-align: left;
-}
-
-.noTasks{
-    padding-top: 4em;
+.space{
+    width: 25em;
 }

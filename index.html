@@ -9,27 +9,27 @@
     />
   </head>
   <body>
-    <h1>Task Manager Web Application</h1>
+    <h1 class="header-text">Task Manager Web Application</h1>
     <div class="grid-container">
       <div class="grid-100 flex-items">
         <div class="grid-70">
           <div>
-            <h1 class="alignLeft">Your Daily Tasks</h1>
+            <h1 class="alignLeft txt">Your Daily Tasks</h1>
             <div id="task-contents">
-                <h1 class="noTasks">No Available Tasks</h1>
+                <h1 class="noTasks txt">No Available Tasks</h1>
 
             </div>
           </div>
         </div>
         <div class="grid-30">
-          <h1 class="alignLeft">Add New Task</h1>
+          <h1 class="alignLeft txt">Add New Task</h1>
           <div class="addTaskSpace">
             
-            <label for="taskname"
+            <label class="txt label-group"
               >Task Name: <br />
               <input type="text" name="taskName" class="taskName" /><br />
             </label>
-            <label for="taskDescription"
+            <label class="txt label-group" id="lbl"
               >Task Description: <br />
               <input
                 type="text"
@@ -37,11 +37,12 @@
                 class="taskDesc"
               /><br />
             </label>
-            <label for="date">
+            <label class="txt  label-group">
              Set Deadline: <br />
-              <input type="datetime-local" name="datetime" class="dateTime" />
+              <input type="date" name="date" class="date" />
+              <input type="time" name="time" class="time">
             </label> <br><br>
-            <button class="btn" id="addTaskButton"> Submit
+            <button class="btn" id="addTaskButton"> <span class="submit">Submit</span>
                 <img class="task-img" src="assets/task.png" alt="" />
               </button>
             
