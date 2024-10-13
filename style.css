@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+}
+.fieldset-register{
+    text-align: left;
+}
+
+#task-contents{
+    height: 30em;
+}
+.addTaskSpace{
+    height: 25em;
+    text-align: left;
+}
+
+.task-img{
+    width: 20px;
+    height: 20px;
+    padding-left: 2px;
+}
+.bin-img{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.flex-items{
+    display: flex;
+}
+.alignLeft{
+    text-align: left;
+}
+
+.noTasks{
+    padding-top: 4em;
+}
